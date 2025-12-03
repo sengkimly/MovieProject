@@ -1,0 +1,69 @@
+.container-movie{
+     width: 100%;
+     height: 500px;
+     background-color:pink;
+     padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+h1{
+
+     color: black;
+     border: 1px solid black;
+     border-radius: 15px;
+     background-color: rgb(177, 219, 236);
+     margin: 10px;
+     text-align: center;
+}
+.scroll-movie{
+     width: 100%;
+     height:400px;
+     grid-auto-flow: column;
+     display: grid;
+     overflow-x:auto ;
+     grid-auto-columns: 250px;
+     gap: 5px;
+     /* background-color: aliceblue; */
+     /* background-color: black; */
+    
+
+}
+.scroll-movie::-webkit-scrollbar{
+     display: none;
+}
+.card{
+     border-radius: 15px;
+     background-color: black;
+     height: 400px;
+     position: relative;
+  
+ 
+}
+.card > img{
+     width: 100%;
+     background-color: red;
+     border-radius: 15px;
+     transition: all 0.5s linear;
+     object-fit: cover;
+     height: 88%;
+    
+}
+/* .EP{
+     font-size: 25px;
+     color: black;
+     top: 50%;
+     left: 70%;
+     font-weight: bold;
+     position: absolute;
+} */
+.text{
+     font-size: 25px;
+     text-align: center;
+     /* background-color: cadetblue; */
+     color: white;
+     text-shadow: 5px 5px 5px;
+     font-weight: bold;
+     margin: 5px;
+}
