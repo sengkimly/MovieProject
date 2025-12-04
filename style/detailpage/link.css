@@ -54,19 +54,6 @@ nav li:hover .dropdown {
      display: block;
      color: black;
 }
-main{
-     width: 100%;
-     height: 100%;
-     background-color: pink;
-}
-.scren{
-     width: 50%;
-     height: 800px;
-     background-color: green;   
-}
-.sreen img{
-     width: 100%;
-     height: 800px;
-}
+
 
 
