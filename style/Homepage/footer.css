@@ -9,7 +9,7 @@ fieldset{
 
 }
 .footer-container h2{
-     color:palevioletred;
+    color: darkred;
      font-size: 70px;
      font-weight: bold;
     
@@ -19,7 +19,7 @@ fieldset{
      color: white;
 }
 .footer-container1 h2{
-     color:palevioletred;
+     color: darkred;
      font-size: 30px;
      font-weight: bold;
 }
@@ -29,7 +29,7 @@ fieldset{
      color: white;
 }
 .Register h2{
-     color: palevioletred;
+     color: darkred;
      font-size: 30px;
      font-weight: bold;
 }

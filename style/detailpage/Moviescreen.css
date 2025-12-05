@@ -1,5 +1,26 @@
 main{
      width: 100%;
-     height: 100%;
-     background-color: pink;
+     height: 800px;
+     /* background-color: pink; */
+     display: flex;
 }
+.screen{
+     width: 50%;
+     height: 800px;
+     /* background-color: aqua; */
+}
+.screen img{
+     width: 100%;
+     height: 100%;
+}
+.Ep{
+     width: 50%;
+     height: 800px;
+     background-color: darkgray;
+}
+
+
+
+
+
+
